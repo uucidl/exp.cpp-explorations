@@ -1,29 +1,22 @@
-<<TITLE>>
-=========
+C++ explorations
+================
 
-<<DESCRIPTION>>
+This repository contains random bits of code I use while assessing c++ constructs and their compatibility in either clang/gcc and visual studio.
 
-Status ![Continuous Build Status](<<CI-LINK>>)
+Status
 ------
 
-<<STATUS>>
-
-see the [ChangeLog](./ChangeLog) file for changes.
+Always will be in experimental stage
 
 Licensing
 ---------
 
 MIT. Look for the [LICENSE](./LICENSE) file.
 
-Installation
-------------
-
-<<INSTALLATION>>
-
 Using
 -----
 
-<<USING>>
+call ./test.sh
 
 Contributing
 ------------
