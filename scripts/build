@@ -12,8 +12,6 @@ OS_NAME="$(uname -s)"
 OS_RELEASE="$(uname -r)"
 CPU_NAME="$(uname -m)"
 OS="${OS_NAME// /_}"
-CLANG_FORMAT=${CLANG_FORMAT:-$(which clang-format)}
-[ -x "${CLANG_FORMAT}" ] || die "missing CLANG_FORMAT env variable"
 
 while [ "$#" -gt 0 ]; do
     case $1 in
