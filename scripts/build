@@ -118,8 +118,8 @@ function compile_default() {
 
 function compile_gxxlike() {
     cflags=("-isystem" "${HERE}"/include "${cflags[@]}")
-    cflags=("-Wall" "-Wextra" "-Werror" "${cflags[@]}")
-    cflags=("${cflags[@]}" "-Wno-padded" "-Wno-unused-parameter" "-Wno-conversion")
+    cflags=("-Wall" "-Wextra" "-Werror" "-pedantic" "${cflags[@]}")
+    cflags=("${cflags[@]}" "-Wno-padded" "-Wno-unused-parameter")
 
     if [[ -n "${VERBOSE}" ]]; then
         cflags=("${cflags[@]}" "-v")
