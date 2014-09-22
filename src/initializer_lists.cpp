@@ -1,8 +1,8 @@
 #include <vector>
 #include <string>
 
-static bool skip_crashes = true;
-#define SKIP_COMPILER_CRASHES 1
+static bool skip_crashes = false;
+#define SKIP_COMPILER_CRASHES 0
 
 #define BEGIN_CRASHES_ON(desc) if (!skip_crashes) {
 #define END_CRASHES_ON }
